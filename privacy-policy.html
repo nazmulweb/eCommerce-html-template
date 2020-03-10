@@ -1,0 +1,665 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Igloo - Ice-cream eCommerce </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    
+    <!-- CSS 
+    ========================= -->
+    <link href="https://fonts.googleapis.com/css?family=Lobster+Two:400,700&display=swap" rel="stylesheet">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/css/plugins.css">
+    
+    <!-- Main Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <!--header area start-->
+    
+    <!--Offcanvas menu area start-->
+    <div class="off_canvars_overlay">
+                
+    </div>
+    <div class="Offcanvas_menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="canvas_open">
+                        <a href="javascript:void(0)"><i class="ion-navicon"></i></a>
+                    </div>
+                    <div class="Offcanvas_menu_wrapper">
+                        <div class="canvas_close">
+                              <a href="javascript:void(0)"><i class="ion-android-close"></i></a>  
+                        </div>
+                        <div class="search_container">
+                           <form action="#">
+                                <div class="search_box">
+                                    <input placeholder="Search Ice-cream" type="text">
+                                    <button type="submit"><i class="fa fa-search"></i></button>
+                                </div>
+                            </form>
+                        </div> 
+                        
+                        <div class="middel_right_info">
+                            <div class="mini_cart_wrapper">
+                                <a href="javascript:void(0)"><img src="./assets/img/icon/shopping.svg" alt="shopping cart"></a>
+                                <span class="cart_quantity">2</span>
+                                <!--mini cart-->
+                                 <div class="mini_cart">
+                                    <div class="cart_item">
+                                       <div class="cart_img">
+                                           <a href="#"><img src="assets/img/s-product/product.jpg" alt=""></a>
+                                       </div>
+                                        <div class="cart_info">
+                                            <a href="#">Sit voluptatem rhoncus sem lectus</a>
+                                            <p>Qty: 1 X <span> $60.00 </span></p>    
+                                        </div>
+                                        <div class="cart_remove">
+                                            <a href="#"><i class="ion-android-close"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="cart_item">
+                                       <div class="cart_img">
+                                           <a href="#"><img src="assets/img/s-product/product2.jpg" alt=""></a>
+                                       </div>
+                                        <div class="cart_info">
+                                            <a href="#">Natus erro at congue massa commodo</a>
+                                            <p>Qty: 1 X <span> $60.00 </span></p>   
+                                        </div>
+                                        <div class="cart_remove">
+                                            <a href="#"><i class="ion-android-close"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="mini_cart_table">
+                                        <div class="cart_total">
+                                            <span>Sub total:</span>
+                                            <span class="price">$138.00</span>
+                                        </div>
+                                        <div class="cart_total mt-10">
+                                            <span>total:</span>
+                                            <span class="price">$138.00</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="mini_cart_footer">
+                                       <div class="cart_button">
+                                            <a href="cart.html">View cart</a>
+                                        </div>
+                                        <div class="cart_button">
+                                            <a href="checkout.html">Checkout</a>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <!--mini cart end-->
+                            </div>
+                        </div>
+                        <div id="menu" class="text-left ">
+                            <ul class="offcanvas_main_menu">
+                                <li class="menu-item-has-children active"><a href="index.html">Home</a></li>
+                                <li class="menu-item-has-children">
+                                    <a href="#">Products</a>
+                                    <ul class="sub-menu">
+                                        <li class="menu-item-has-children">
+                                            <a href="#">Shop Layouts</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="shop.html">shop</a></li>
+                                                <li><a href="shop-fullwidth.html">Full Width</a></li>
+                                                <li><a href="shop-fullwidth-list.html">Full Width list</a></li>
+                                                <li><a href="shop-right-sidebar.html">Right Sidebar </a></li>
+                                                <li><a href="shop-right-sidebar-list.html"> Right Sidebar list</a></li>
+                                                <li><a href="shop-list.html">List View</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="#">other Pages</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="cart.html">cart</a></li>
+                                                <li><a href="wishlist.html">Wishlist</a></li>
+                                                <li><a href="checkout.html">Checkout</a></li>
+                                                <li><a href="my-account.html">my account</a></li>
+                                                <li><a href="404.html">Error 404</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="#">Product Types</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="product-details.html">product details</a></li>
+                                                <li><a href="product-sidebar.html">product sidebar</a></li>
+                                                <li><a href="product-grouped.html">product grouped</a></li>
+                                                <li><a href="variable-product.html">product variable</a></li>
+                                                <li><a href="product-countdown.html">product countdown</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="#">Flavors</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="about.html">About Us</a></li>
+                                        <li><a href="services.html">services</a></li>
+                                        <li><a href="privacy-policy.html">privacy policy</a></li>
+                                        <li><a href="faq.html">Frequently Questions</a></li>
+                                        <li><a href="contact.html">contact</a></li>
+                                        <li><a href="login.html">login</a></li>
+                                        <li><a href="404.html">Error 404</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children"><a href="offers.html">Offers</a></li>
+                                <li class="menu-item-has-children"><a href="gallery.html">Gallery</a></li>
+                                <li class="menu-item-has-children"><a href="blog.html">Blog</a> </li>
+                                <li class="menu-item-has-children"><a href="order-process.html">Order Process</a></li>
+                                <li class="menu-item-has-children"><a href="login.html">Login</a> </li>
+                                <li class="menu-item-has-children"><a href="register.html">Register</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Offcanvas menu area end-->
+    
+    <header>
+        <div class="main_header">
+            <!--header top start-->
+            <div class="header_middle">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="logos">
+                                <div class="logo">
+                                    <a href="index.html"><img src="assets/img/logo/logo.png" alt="Igloo"></a>
+                                </div>
+                                <div class="logo-2">
+                                    <a href="index.html"><img src="assets/img/logo/abdul-monem-ltd.svg" class="monem_logo" alt="Abdul monem Ltd"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-6">
+                            <div class="middel_right">
+                                <div class="search_container">
+                                   <form action="#">
+                                        <div class="search_box">
+                                            <input placeholder="Search Ice-cream" type="text">
+                                            <button type="submit"><i class="fa fa-search"></i></button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="middel_right_info">
+                                    <div class="mini_cart_wrapper">
+                                        <a href="javascript:void(0)"><img src="./assets/img/icon/shopping.svg" alt="shopping"></a>
+                                        <span class="cart_quantity">2</span>
+                                        <!--mini cart-->
+                                         <div class="mini_cart">
+                                            <div class="cart_item">
+                                               <div class="cart_img">
+                                                   <a href="#"><img src="assets/img/s-product/product.jpg" alt=""></a>
+                                               </div>
+                                                <div class="cart_info">
+                                                    <a href="#">Sit voluptatem rhoncus sem lectus</a>
+                                                    <p>Qty: 1 X <span> $60.00 </span></p>    
+                                                </div>
+                                                <div class="cart_remove">
+                                                    <a href="#"><i class="ion-android-close"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="cart_item">
+                                               <div class="cart_img">
+                                                   <a href="#"><img src="assets/img/s-product/product2.jpg" alt=""></a>
+                                               </div>
+                                                <div class="cart_info">
+                                                    <a href="#">Natus erro at congue massa commodo</a>
+                                                    <p>Qty: 1 X <span> $60.00 </span></p>   
+                                                </div>
+                                                <div class="cart_remove">
+                                                    <a href="#"><i class="ion-android-close"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="mini_cart_table">
+                                                <div class="cart_total">
+                                                    <span>Sub total:</span>
+                                                    <span class="price">$138.00</span>
+                                                </div>
+                                                <div class="cart_total mt-10">
+                                                    <span>total:</span>
+                                                    <span class="price">$138.00</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="mini_cart_footer">
+                                               <div class="cart_button">
+                                                    <a href="cart.html">View cart</a>
+                                                </div>
+                                                <div class="cart_button">
+                                                    <a href="checkout.html">Checkout</a>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                        <!--mini cart end-->
+                                    </div>
+                                    <div class="header_userinfolink">
+                                        <a href="javascript:void(0)"><img src="./assets/img/icon/user.svg" alt=""></a>
+                                        <div class="mini_cart">
+                                            <ul class="user_link">
+                                                <div class="cart_item">
+                                                    <li><a href="login.html"><img src="./assets/img/icon/login.svg" alt="login"><span class="ml-3">Login</span></a></li>
+                                                </div>
+                                                <div class="cart_item">
+                                                    <li><a href="register.html"><img src="./assets/img/icon/user.svg" alt="user"><span class="ml-3">Register</span></a></li>
+                                                </div>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--header top end-->
+            <!--header bottom satrt-->
+            <div class="main_menu_area">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-12 col-md-12">
+                            <div class="main_menu menu_position"> 
+                                <nav>  
+                                    <ul>
+                                        <li><a class="active"  href="index.html">home</a></li>
+                                        <li class="mega_items"><a href="#">products<i class="fa fa-angle-down"></i></a> 
+                                            <div class="mega_menu">
+                                                <ul class="mega_menu_inner">
+                                                    <li><a href="#">Shop Layouts</a>
+                                                        <ul>
+                                                            <li><a href="shop-fullwidth.html">Full Width</a></li>
+                                                            <li><a href="shop-fullwidth-list.html">Full Width list</a></li>
+                                                            <li><a href="shop-right-sidebar.html">Right Sidebar </a></li>
+                                                            <li><a href="shop-right-sidebar-list.html"> Right Sidebar list</a></li>
+                                                            <li><a href="shop-list.html">List View</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#">other Pages</a>
+                                                        <ul>
+                                                            <li><a href="cart.html">cart</a></li>
+                                                            <li><a href="wishlist.html">Wishlist</a></li>
+                                                            <li><a href="checkout.html">Checkout</a></li>
+                                                            <li><a href="my-account.html">my account</a></li>
+                                                            <li><a href="404.html">Error 404</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#">Product Types</a>
+                                                        <ul>
+                                                            <li><a href="product-details.html">product details</a></li>
+                                                            <li><a href="product-sidebar.html">product sidebar</a></li>
+                                                            <li><a href="product-grouped.html">product grouped</a></li>
+                                                            <li><a href="variable-product.html">product variable</a></li>
+                                                            <li><a href="product-countdown.html">product countdown</a></li>
+
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#">Concrete Tools</a>
+                                                        <ul>
+                                                            <li><a href="shop.html">Cables & Connectors</a></li>
+                                                            <li><a href="shop-list.html">Graphics Tablets</a></li>
+                                                            <li><a href="shop-fullwidth.html">Printers, Ink & Toner</a></li>
+                                                            <li><a href="shop-fullwidth-list.html">Refurbished Tablets</a></li>
+                                                            <li><a href="shop-right-sidebar.html">Optical Drives</a></li>
+
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li><a href="#">Flavors<i class="fa fa-angle-down"></i></a>
+                                            <ul class="sub_menu pages">
+                                                <li><a href="blog-details.html">blog details</a></li>
+                                                <li><a href="blog-fullwidth.html">blog fullwidth</a></li>
+                                                <li><a href="blog-sidebar.html">blog left sidebar</a></li>
+                                                <li><a href="blog-no-sidebar.html">blog no sidebar</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="offers.html">offers</a></li>
+                                        <li><a href="gallery.html">gallery</a></li>
+                                        <li><a href="blog.html">blog</a></li>
+                                        <li><a href="order-process.html">Order Process</a></li>
+                                    </ul>  
+                                </nav> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--header bottom end-->
+        </div> 
+    </header>
+    <!--header area end-->
+    
+    <!--sticky header area start-->
+    <div class="sticky_header_area sticky-header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-3">
+                    <div class="logos">
+                        <div class="logo">
+                            <a href="index.html"><img src="assets/img/logo/logo.png" alt="Igloo"></a>
+                        </div>
+                        <div class="logo-2">
+                            <a href="index.html"><img src="assets/img/logo/abdul-monem-ltd.svg" class="monem_logo" alt="Abdul monem Ltd"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="sticky_header_right menu_position">
+                        <div class="main_menu"> 
+                            <nav>  
+                                <ul>
+                                    <li><a class="active"  href="index.html">home</a></li>
+                                    <li class="mega_items"><a href="#">products<i class="fa fa-angle-down"></i></a> 
+                                        <div class="mega_menu">
+                                            <ul class="mega_menu_inner">
+                                                <li><a href="#">Shop Layouts</a>
+                                                    <ul>
+                                                        <li><a href="shop-fullwidth.html">Full Width</a></li>
+                                                        <li><a href="shop-fullwidth-list.html">Full Width list</a></li>
+                                                        <li><a href="shop-right-sidebar.html">Right Sidebar </a></li>
+                                                        <li><a href="shop-right-sidebar-list.html"> Right Sidebar list</a></li>
+                                                        <li><a href="shop-list.html">List View</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">other Pages</a>
+                                                    <ul>
+                                                        <li><a href="cart.html">cart</a></li>
+                                                        <li><a href="wishlist.html">Wishlist</a></li>
+                                                        <li><a href="checkout.html">Checkout</a></li>
+                                                        <li><a href="my-account.html">my account</a></li>
+                                                        <li><a href="404.html">Error 404</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">Product Types</a>
+                                                    <ul>
+                                                        <li><a href="product-details.html">product details</a></li>
+                                                        <li><a href="product-sidebar.html">product sidebar</a></li>
+                                                        <li><a href="product-grouped.html">product grouped</a></li>
+                                                        <li><a href="variable-product.html">product variable</a></li>
+                                                        <li><a href="product-countdown.html">product countdown</a></li>
+
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">Concrete Tools</a>
+                                                    <ul>
+                                                        <li><a href="shop.html">Cables & Connectors</a></li>
+                                                        <li><a href="shop-list.html">Graphics Tablets</a></li>
+                                                        <li><a href="shop-fullwidth.html">Printers, Ink & Toner</a></li>
+                                                        <li><a href="shop-fullwidth-list.html">Refurbished Tablets</a></li>
+                                                        <li><a href="shop-right-sidebar.html">Optical Drives</a></li>
+
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li><a href="#">Flavors<i class="fa fa-angle-down"></i></a>
+                                        <ul class="sub_menu pages">
+                                            <li><a href="blog-details.html">blog details</a></li>
+                                            <li><a href="blog-fullwidth.html">blog fullwidth</a></li>
+                                            <li><a href="blog-sidebar.html">blog left sidebar</a></li>
+                                            <li><a href="blog-no-sidebar.html">blog no sidebar</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="offers.html">offers</a></li>
+                                    <li><a href="gallery.html">gallery</a></li>
+                                    <li><a href="blog.html">blog</a></li>
+                                    <li><a href="order-process.html">Order Process</a></li>
+                                </ul>  
+                            </nav> 
+                        </div>
+                        <div class="middel_right_info">
+                            <div class="mini_cart_wrapper">
+                                <a href="javascript:void(0)"><img src="./assets/img/icon/shopping.svg" alt="shopping"></a>
+                                <span class="cart_quantity">2</span>
+                                <!--mini cart-->
+                                 <div class="mini_cart">
+                                    <div class="cart_item">
+                                       <div class="cart_img">
+                                           <a href="#"><img src="assets/img/s-product/product.jpg" alt=""></a>
+                                       </div>
+                                        <div class="cart_info">
+                                            <a href="#">Sit voluptatem rhoncus sem lectus</a>
+                                            <p>Qty: 1 X <span> $60.00 </span></p>    
+                                        </div>
+                                        <div class="cart_remove">
+                                            <a href="#"><i class="ion-android-close"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="cart_item">
+                                       <div class="cart_img">
+                                           <a href="#"><img src="assets/img/s-product/product2.jpg" alt=""></a>
+                                       </div>
+                                        <div class="cart_info">
+                                            <a href="#">Natus erro at congue massa commodo</a>
+                                            <p>Qty: 1 X <span> $60.00 </span></p>   
+                                        </div>
+                                        <div class="cart_remove">
+                                            <a href="#"><i class="ion-android-close"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="mini_cart_table">
+                                        <div class="cart_total">
+                                            <span>Sub total:</span>
+                                            <span class="price">$138.00</span>
+                                        </div>
+                                        <div class="cart_total mt-10">
+                                            <span>total:</span>
+                                            <span class="price">$138.00</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="mini_cart_footer">
+                                       <div class="cart_button">
+                                            <a href="cart.html">View cart</a>
+                                        </div>
+                                        <div class="cart_button">
+                                            <a href="checkout.html">Checkout</a>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <!--mini cart end-->
+                            </div>
+                            <div class="header_userinfolink">
+                                <a href="javascript:void(0)"><img src="./assets/img/icon/user.svg" alt="user"></a>
+                                <div class="mini_cart">
+                                    <ul class="user_link">
+                                        <div class="cart_item">
+                                            <li><a href="login.html"><img src="./assets/img/icon/login.svg" alt="login"><span class="ml-3">Login</span></a></li>
+                                        </div>
+                                        <div class="cart_item">
+                                            <li><a href="register.html"><img src="./assets/img/icon/user.svg" alt="user"><span class="ml-3">Register</span></a></li>
+                                        </div>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--sticky header area end-->
+    
+    
+    <!--Privacy Policy area start-->
+    <div class="privacy_policy_main_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="title only-title">
+                        <h1>Privacy Policy</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="privacy_content section_2">
+                        <h2>WHAT DO WE DO WITH YOUR INFORMATION?</h2>
+                        <p>- IGLOOBD collects personal Information like your name, address, email and phone number when you purchase form IGLOOBD as part of buying and selling process.</p>
+                        <p>- IGLOBBD also automatically receive during browsing our site your computer’s internet protocol (IP) address in order to provide us with information that helps us learn about your browser and operating system.</p>
+                        <p>- IGLOOBD may send you emails about our store, new products and other updates. IGLOOBD may disclose your personal information if we are required by law to do so or if you violate our Terms of Service.</p>
+                    </div>
+                    <div class="privacy_content section_3 mb-60">
+                        <h2>DISCLOSURE</h2>
+                        <p>– IGLOOBD may disclose your personal information if we are required by law to do so or if you violate our Terms of Service.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Privacy Policy area end-->
+    
+    <!--footer area start-->
+    <footer class="footer_widgets">
+        <div class="footer_top mb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="widgets_container contact_us mt-5">
+                            <div class="footer_logo">
+                                <a href="#"><img src="assets/img/logo/logo.png" alt="logo"></a>
+                            </div>
+                            <div class="footer_contact">
+                                <h3>Get in touch</h3>
+                                <div class="get-in-touch">
+                                    <div class="map-margin">
+                                        <img src="./assets/img/icon/footer-map.svg" class="footer_map" alt="map">
+                                    </div>
+                                    <div>
+                                        Monem Business District 111, Bir Uttam C.R. Dutta Road, Level 13 Karwanbazar, Dhaka-1205, Bangladesh
+                                    </div>
+                                </div>
+                                <div class="get-in-touch">
+                                    <div>
+                                        <img src="./assets/img/icon/footer-email.svg" alt="email">
+                                    </div>
+                                    <div>
+                                        <a href="mailto:helloigloo@amlbd.com">helloigloo@amlbd.com</a>
+                                    </div>
+                                </div>
+                                <div class="get-in-touch">
+                                    <div>
+                                        <img src="./assets/img/icon/footer-call.svg" alt="call">
+                                    </div>
+                                    <div>
+                                        <a href="tel:88-02-9632011-13">88-02-9632011-13</a> <a href="tel:88-9632304-10">88-9632304-10</a>
+                                    </div>
+                                </div>
+                                <div class="get-in-touch">
+                                    <div>
+                                        <img src="./assets/img/icon/footer-cutomer-support.svg" alt="customer support">
+                                    </div>
+                                    <div>
+                                        <a href="tel:16556">16556</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <div class="widgets_container widget_menu" id="accordion">
+                            <div id="headingOne">
+                                <h3>Igloo</h3>
+                            </div>
+                            <div class="footer_menu">
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About us</a></li>
+                                    <li><a href="contact.html">Contact us</a></li>
+                                    <li><a href="blog.html">Blog</a></li>
+                                    <li><a href="carrier.html">Carrier</a></li>
+                                    <li><a href="terms-conditions.html">Terms & Conditions</a></li>
+                                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                                    <li><a href="faq.html">FAQ</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <div class="widgets_container widget_menu">
+                            <h3>Products</h3>
+                            <div class="footer_menu">
+                                <ul>
+                                    <li><a href="shop.html">Sticks</a></li>
+                                    <li><a href="shop.html">Cups</a></li>
+                                    <li><a href="shop.html">Cones</a></li>
+                                    <li><a href="shop.html">Family</a></li>
+                                    <li><a href="shop.html">Celebrations</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="widgets_container newsletter">
+                        <h3>Follow Us</h3>
+                        <div class="footer_social_link">
+                            <ul>
+                                <li><a class="facebook" href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                                <li><a class="twitter" href="#" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                                <li><a class="instagram" href="#" title="instagram"><i class="fa fa-instagram"></i></a></li>
+                                <li><a class="linkedin" href="#" title="linkedin"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a class="rss" href="#" title="rss"><i class="fa fa-rss"></i></a></li>
+                            </ul>
+                        </div>
+                        <h3>Payment methods</h3>
+                        <div class="footer_payment text-right">
+                            <a href="#"><img src="assets/img/icon/payment.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="copyright_area">
+                            <p>Copyright &copy; 2019 <a href="#">Igloo</a>  All Right Reserved.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="development-company">
+                            <p>Developed by<a href="#" style="color: #4CD4AF;"> Saros IT</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </footer>
+    <!--footer area end-->
+
+
+<!-- JS
+============================================ -->
+
+<!-- Plugins JS -->
+<script src="assets/js/plugins.js"></script>
+
+<!-- Main JS -->
+<script src="assets/js/main.js"></script>
+
+
+
+</body>
+</html>
